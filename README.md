@@ -1,4 +1,4 @@
-# Hello_world
+# STA426
 
 Don't panic! Here lies the answer to:
 * Life
