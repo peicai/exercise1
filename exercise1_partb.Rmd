@@ -1,0 +1,24 @@
+---
+title: "week1 exercise (part b)"
+output: html_document
+---
+
+# Create samples
+```{r}
+sample <- rlnorm(100, 1, .25)
+``` 
+
+# Histogram
+```{r}
+hist(sample)
+hist(log(sample))
+mean <- mean(sample)
+var <- var(sample) 
+```
+
+## the sample mean and variance
+```{r}
+print(c(mean, var))
+
+```
+
